@@ -3,9 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>My Projects Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="#" class="logo">
+                <i class="fas fa-code"></i>
+                DevPortfolio
+            </a>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Projects</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
+        <header>
+            <h1>My Projects Portfolio</h1>
+            <p>Showcasing innovative solutions built with modern technologies and best practices</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="filter-container">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">Web Apps</button>
+            <button class="filter-btn">Mobile</button>
+            <button class="filter-btn">UI/UX</button>
+            <button class="filter-btn">API</button>
+        </div>
+
+        <section class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+                <div class="project-img" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <div class="project-content">
+                    <h3 class="project-title">E-Commerce Dashboard</h3>
+                    <p class="project-desc">A responsive analytics dashboard for online stores with real-time sales tracking, inventory management, and customer insights.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Chart.js</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+                <div class="project-img" style="background-image: url('https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <div class="project-content">
+                    <h3 class="project-title">TaskFlow - Productivity App</h3>
+                    <p class="project-desc">A collaborative task management tool with drag-and-drop boards, team assignments, deadlines, and progress tracking.</p>
+                    <div class="project-tags">
+                        <span class="tag">Vue.js</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Tailwind</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> View App</a>
+                        <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+                <div class="project-img" style="background-image: url('https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <div class="project-content">
+                    <h3 class="project-title">WeatherWise Forecast</h3>
+                    <p class="project-desc">Beautiful weather application with 7-day forecasts, interactive maps, severe weather alerts, and location-based updates.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">OpenWeather API</span>
+                        <span class="tag">CSS Grid</span>
+                        <span class="tag">PWA</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Try It</a>
+                        <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i> Repository</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="project-card">
+                <div class="project-img" style="background-image: url('https://images.unsplash.com/photo-1611605698335-8b1569810432?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                <div class="project-content">
+                    <h3 class="project-title">SocialStream Platform</h3>
+                    <p class="project-desc">A social media aggregator that combines feeds from multiple platforms into a unified, customizable timeline experience.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">Redis</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Explore</a>
+                        <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i> Code Base</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-codepen"></i></a>
+            </div>
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+            <p>
+                <a href="#" style="color: var(--primary); text-decoration: none;">Privacy Policy</a> | 
+                <a href="#" style="color: var(--primary); text-decoration: none;">Contact</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Simple filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // In a real implementation, you would filter projects here
+                    // For now, we'll just log the filter
+                    console.log(`Filtering by: ${this.textContent}`);
+                });
+            });
+        });
+    </script>
+=======
     <title>Projects</title>
 </head>
 <body>
     
+>>>>>>> dcf1981d1f306ffa2e60f24bf2c2de4a38199d15
 </body>
 </html>
